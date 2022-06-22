@@ -1,0 +1,46 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 512                           
+                 dataroot: /media/totem_disk/totem/hebingdou/FileZilla_res/DeepLIIF-main/input	[default: None]
+             dataset_mode: aligned                       
+                direction: AtoB                          
+          display_winsize: 512                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                 is_train: False                         	[default: True]
+                lambda_L1: 100.0                         
+              lambda_feat: 100.0                         
+                load_iter: 0                             	[default: 0]
+                load_size: 512                           
+         max_dataset_size: None                          
+                    model: DeepLIIF                      
+               n_layers_D: 4                             
+                     name: experiment_name               
+                      ndf: 64                            
+                     netD: n_layers                      
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: False                         
+                  no_flip: False                         
+                     norm: batch                         
+                 num_test: 10000                         
+              num_threads: 4                             
+                output_nc: 3                             
+                  padding: reflect                       
+                    phase: test                          
+               preprocess: none                          
+                   remote: False                         
+      remote_transfer_cmd: None                          
+              results_dir: ./results/                    
+                     seed: None                          
+           serial_batches: False                         
+                   suffix:                               
+               targets_no: 5                             
+                  verbose: False                         
+----------------- End -------------------
